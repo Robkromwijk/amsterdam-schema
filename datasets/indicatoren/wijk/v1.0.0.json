@@ -149,7 +149,7 @@
         "description": "Naam van de doelenboom waarop de indicator betrekking heeft (indien van toepassing)."
       },
       "gbdWijk": {
-        "type": "integer",
+        "type": "string",
         "relation": "gebieden:wijken",
         "uri": "https://www.amsterdam.nl/stelselpedia/gebieden-index/catalogus-gebieden/wijk/",
         "description": "Verwijzing naar de unieke identifier van de wijk waarop de indicator-waarde is gebaseerd (conform basisregistratie)."
@@ -165,7 +165,7 @@
         "description": "Naam van de wijk waarop de indicator-waarde is gebaseerd (conform basisregistratie)."
       },
       "gbdGgw": {
-        "type": "integer",
+        "type": "string",
         "relation": "gebieden:ggwgebieden",
         "uri": "https://www.amsterdam.nl/stelselpedia/gebieden-index/catalogus-gebieden/ggw/",
         "description": "Verwijzing naar de unieke identifier van het gebiedsgericht werken gebied waarop de indicator-waarde is gebaseerd (conform basisregistratie)."
@@ -176,7 +176,7 @@
         "description": "Naam van het gebiedsgericht werken gebied waarop de indicator-waarde is gebaseerd (conform basisregistratie)."
       },
       "gbdStadsdeel": {
-        "type": "integer",
+        "type": "string",
         "relation": "gebieden:stadsdelen",
         "uri": "https://www.amsterdam.nl/stelselpedia/gebieden-index/catalogus-gebieden/stadsdeel/",
         "description": "Verwijzing naar de unieke identifier van het stadsdeel waarop de indicator-waarde is gebaseerd (conform basisregistratie)."
@@ -187,7 +187,7 @@
         "description": "Naam van het stadsdeel waarop de indicator-waarde is gebaseerd (conform basisregistratie)."
       },
       "bagWoonplaats": {
-        "type": "integer",
+        "type": "string",
         "relation": "bag:woonplaatsen",
         "uri": "https://www.amsterdam.nl/stelselpedia/bag-index/catalogus-bag/objectklasse-woonplaats/",
         "description": "Verwijzing naar de unieke identifier van de woonplaats waarop de indicator-waarde is gebaseerd (conform basisregistratie)."
